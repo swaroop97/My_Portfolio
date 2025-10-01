@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tejaswini Narasimhamurthy | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {font-family: 'Poppins', sans-serif;background: #f9f9f9;color: #333;}
+    .hero {background: #473f39;color: white;padding: 100px 20px;text-align: center;}
+    .hero img {width: 150px;height: 150px;object-fit: cover;border-radius: 50%;margin-bottom: 20px;}
+    section {padding: 60px 20px;}
+    .skills-section ul, .certifications-section ul {list-style: none;padding-left: 0;}
+    .skills-section li, .certifications-section li {margin: 10px 0;}
+    .card {margin-bottom: 20px;}
+    .project-buttons a {margin-right: 10px;}
+    footer {background: #333;color: white;text-align: center;padding: 20px 10px;}
+    nav a {margin: 0 15px;text-decoration: none;color: #333;font-weight: 500;}
+    .timeline {position: relative;border-left: 3px solid #473f39;margin-left: 20px;padding-left: 20px;}
+    .timeline::before {content: '';position: absolute;top: 0;left: -6px;width: 12px;height: 12px;background: #473f39;border-radius: 50%;}
+    .timeline-item {margin-bottom: 40px;position: relative;}
+    .timeline-item::before {content: '';position: absolute;top: 10px;left: -25px;width: 12px;height: 12px;background: #473f39;border-radius: 50%;}
+    .edu-logo {height: 30px;margin-right: 10px;vertical-align: middle;}
+    .certification-badge {background: #fff;border: 1px solid #ccc;border-radius: 10px;padding: 15px;margin: 10px 0;box-shadow: 0 4px 8px rgba(0,0,0,0.05);transition: transform 0.3s;}
+    .certification-badge:hover {transform: translateY(-5px);}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Tejaswini</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" data-aos="fade-down">
+  <h1>Tejaswini Narasimhamurthy</h1>
+  <p>Software Engineer | Backend Developer | Business Analyst</p>
+</header>
+
+<section id="about" class="container" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>Full Stack Developer with strong expertise in backend development, cloud services, and business analytics. Skilled in building scalable web applications and optimizing performance for data-driven systems. Experienced with frontend technologies, backend API development, databases, and cloud platforms. Passionate about problem-solving, innovation, and continuous learning. Familiar with Agile development environments using Jira, Confluence, and GitHub.</p>
+</section>
+
+<section id="skills" class="skills-section container" data-aos="fade-up">
+  <h2>Skills</h2>
+  <ul>
+    <li><i class="fab fa-java"></i> Languages & Frameworks: Java, JavaScript, TypeScript, HTML5, CSS3</li>
+    <li><i class="fas fa-code"></i> Frontend: React, Angular (familiar), Bootstrap</li>
+    <li><i class="fas fa-server"></i> Backend & API Integration: Java/JEE, Node.js, Spring Boot; RESTful APIs</li>
+    <li><i class="fas fa-database"></i> Databases: MySQL, Oracle, PostgreSQL, MongoDB; PL/SQL optimization</li>
+    <li><i class="fas fa-cloud"></i> Cloud: AWS Basics, Oracle OCI Foundations</li>
+    <li><i class="fas fa-tools"></i> Tools: Git, GitHub, Docker, JMeter, Jira, Confluence, Tableau, Power BI</li>
+  </ul>
+</section>
+
+<section id="projects" class="container" data-aos="fade-up">
+  <h2>Projects</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Customer Behavior Prediction</h5>
+          <p class="card-text">Developed a predictive model using Python and visualized insights using Tableau, improving prediction accuracy by 15%.</p>
+          <div class="project-buttons">
+            <span class="badge bg-secondary">Coming Soon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Pawsome Care – Pet Management System</h5>
+          <p class="card-text">Full-stack MERN app for managing pet records and appointments.</p>
+          <div class="project-buttons">
+            <a href="https://pawsome-care-iota.vercel.app/" class="btn btn-outline-primary" target="_blank">Live Demo</a>
+            <a href="https://github.com/heer-dev/Pawsome-Care" class="btn btn-outline-dark" target="_blank">GitHub Repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Video Store App</h5>
+          <p class="card-text">Simple JS video store app with deployed live demo and source code.</p>
+          <div class="project-buttons">
+            <a href="https://video-store-chi.vercel.app/" class="btn btn-outline-primary" target="_blank">Live Demo</a>
+            <a href="https://github.com/Tejaswinibn/video-store" class="btn btn-outline-dark" target="_blank">GitHub Repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="container" data-aos="fade-up">
+  <h2>Education</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h5><img src="https://studyonline.ca/wp-content/uploads/2023/11/Seneca-Polytechnic-Logo2.png" class="edu-logo">Graduate Certificate in Business Analytics</h5>
+      <p>Seneca Polytechnic, Toronto, Canada | Sept 2023 – April 2024</p>
+    </div>
+    <div class="timeline-item">
+      <h5><img src="https://sjbit.edu.in/wp-content/uploads/2021/07/VTU-Logo-250x250-1.png" class="edu-logo">Bachelor of Engineering in Computer Science</h5>
+      <p>JSS Academy of Technical Education (VTU), Karnataka, India | 2021</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="container" data-aos="fade-up">
+  <h2 class="text-center mb-5">Experience</h2>
+  <div class="timeline">
+    <div class="timeline-item" data-aos="fade-right">
+      <h5><i class="fas fa-laptop-code"></i> Software Engineer - Tata Consultancy Services</h5>
+      <p>Aug 2021 – Jul 2022</p>
+      <ul>
+        <li>Enhanced data pipeline efficiency and reduced system downtime by 15%.</li>
+        <li>Resolved 200+ Jira tickets related to SQL and data integrity.</li>
+        <li>Reduced ETL execution time by 10% through process optimization.</li>
+      </ul>
+    </div>
+    <div class="timeline-item" data-aos="fade-left">
+      <h5><i class="fas fa-cloud"></i> Application Development Analyst - Accenture</h5>
+      <p>Jul 2022 – Jul 2023</p>
+      <ul>
+        <li>Integrated AWS Lambda for serverless data processing.</li>
+        <li>Designed optimized data pipelines using Spring Boot, improving performance by 30%.</li>
+        <li>Conducted load testing using JMeter for application scalability for 100K+ users.</li>
+      </ul>
+    </div>
+    <div class="timeline-item" data-aos="fade-right">
+      <h5><i class="fas fa-graduation-cap"></i> STEM Experience Manager (Promotion) - Ultimate Coders</h5>
+      <p>Expected May 2025</p>
+      <ul>
+        <li>Leading STEM education programs and managing coding curriculum delivery.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="certifications" class="certifications-section container" data-aos="zoom-in">
+  <h2 class="text-center mb-5">Certifications</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="certification-badge">
+        <h5>Oracle Certified</h5>
+        <p>Cloud Database Migration and Integration</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="certification-badge">
+        <h5>Oracle Certified</h5>
+        <p>OCI Foundations Associate</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="certification-badge">
+        <h5>AWS Certified Cloud Practitioner</h5>
+        <p>(In Progress)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="container text-center" data-aos="fade-up">
+  <h2>Contact Me</h2>
+  <p>Email: tejuvashishta@gmail.com | Phone: +1 437-661-4051</p>
+  <a href="https://github.com/Tejaswinibn" class="btn btn-dark m-2" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+  <a href="https://www.linkedin.com/in/tejaswini-narasimhamurthy-a72682196/" class="btn btn-primary m-2" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  <a href="https://drive.google.com/file/d/123yVP6CkbY40HJXpla81UsLpvZrOXwnv/view?usp=sharing" class="btn btn-success m-2" target="_blank"><i class="fas fa-file-download"></i> Download Resume</a>
+</section>
+
+<footer>
+  <p>Tejaswini Narasimhamurthy &copy; 2025 | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
